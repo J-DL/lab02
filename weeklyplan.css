@@ -1,0 +1,93 @@
+html
+{
+	color: #8ED4E6;
+	background-color: #4051B5;
+}
+
+body
+{
+	font-family: Arial, Georgia, sans-serif;
+	background-image: url("guitare.png");
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+h1, h2
+{
+	color: #91D8C2;
+}
+
+h1
+{
+	text-align: center;
+}
+
+h2
+{
+	font-size: 1.8em;
+}
+
+dl
+{
+	font-size: 75%;
+	color: #FDFD1B;
+}
+
+dt
+{
+	font-weight: bold;
+}
+
+p::first-letter
+{
+	font-size: 150%;
+	font-weight: bold;
+}
+
+ins
+{
+	color: #10FF10;
+	text-decoration: none;
+}
+
+ins:hover
+{
+	font-weight: bold;
+}
+
+del
+{
+	color: #FF3636;
+}
+
+strong
+{
+	text-shadow: -2px 2px #ACACAC;	
+}
+
+table, th, td
+{
+	border-style: solid;
+	border-collapse: collapse;
+}
+
+table > caption
+{
+	text-align: right;
+}
+
+tr:last-child
+{
+	background-color: white;
+}
+
+ol
+{
+	list-style-type: lower-greek;
+}
+
+p img
+{
+	width: 300px;
+    height: 300px;
+}
